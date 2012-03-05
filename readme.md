@@ -5,18 +5,15 @@ Spotify Middleman Bootstrap is a [Middleman](http://middlemanapp.com/) template 
 Install
 -------
 First, make sure that you install Middleman
-`gem install middleman`
+    `gem install middleman`
 
 Next, create the required directory for Middleman templates
-`mkdir ~/.middleman`
-`cd ~/.middleman`
-`git clone git@github.com:danwaz/spotify-middleman-bootstrap.git`
+    `mkdir ~/.middleman`
+    `cd ~/.middleman`
+    `git clone git@github.com:danwaz/spotify-middleman-bootstrap.git`
 
 Lastly, create a new Middleman project
-`middleman init MySpotifyApp --template=spotify-middleman-bootstrap`
-
-*note you can rename the template folder to something more simple like spotify or sp
-`middleman init MySpotifyApp --template=spotify` or `middleman init MySpotifyApp --template=sp` 
+    `middleman init MySpotifyApp --template=spotify-middleman-bootstrap`
 
 Automatic build
 ---------------
