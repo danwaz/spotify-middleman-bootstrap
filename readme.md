@@ -39,5 +39,5 @@ After each save, your project will be built and copied to the `~/Spotify` direct
 Resources
 ---------
 
-[Spotify Developer](http://developer.spotify.com/en/spotify-apps-api/resources/)
-[Middleman](http://middlemanapp.com/)
+*	[Spotify Developer](http://developer.spotify.com/en/spotify-apps-api/resources/)
+*	[Middleman](http://middlemanapp.com/)
