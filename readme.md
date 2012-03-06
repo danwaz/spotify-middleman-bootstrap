@@ -2,15 +2,16 @@ Spotify Middleman Bootstrap
 ===========================
 Spotify Middleman Bootstrap is a [Middleman](http://middlemanapp.com/) template for creating Spotify Apps in Haml, Sass, and Coffeescript!
 
-Installation
+Requirements
 ------------
-
-Requirements:
 
 *	Middleman `gem install middleman`
 *	Bundler `gem install bundler`
 *	Ruby 1.9.x recommended
 *	[Spotify Dev Account](http://developer.spotify.com/en/spotify-apps-api/developer-signup/)
+
+Installation
+------------
 
 Clone project into `~/.middleman` folder.
 
