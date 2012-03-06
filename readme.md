@@ -10,7 +10,7 @@ Requirements
 *	Ruby 1.9.x recommended
 *	[Spotify Dev Account](http://developer.spotify.com/en/spotify-apps-api/developer-signup/)
 
-Installation
+Install
 ------------
 
 Clone project into `~/.middleman` folder.
@@ -33,7 +33,7 @@ Open `spotify_build.sh` and modify the `appDirectory` variable.  This is the fol
 
 Open `source/manifest.json` to modify your app information.
 
-Automatic build
+Automatic Build
 ---------------
 
 Run `guard` in `/MyStotifyApp` folder. 
