@@ -26,15 +26,14 @@ Run bundler in `/MyStotifyApp` folder.
 
 	bundle install
 
-Configure
----------
+Automatic Build
+---------------
 
 Open `spotify_build.sh` and modify the `appDirectory` variable.  This is the folder your app is saved to and the name used to access your app in the Spotify client.
 
-Open `source/manifest.json` to modify your app information.
+Make `spotify_build.sh` executable.
 
-Automatic Build
----------------
+	chmod +x spotify_build.sh
 
 Run `guard` in `/MyStotifyApp` folder. 
 
