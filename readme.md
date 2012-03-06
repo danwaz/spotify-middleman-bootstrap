@@ -15,6 +15,9 @@ Installation
 
 Clone project into `~/.middleman` folder.
 
+Usage
+-----
+
 Create a new Middleman project.
 
 	middleman init MySpotifyApp --template=spotify-middleman-bootstrap
