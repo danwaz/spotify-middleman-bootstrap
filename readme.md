@@ -1,30 +1,43 @@
 Spotify Middleman Bootstrap
 ===========================
-Spotify Middleman Bootstrap is a [Middleman](http://middlemanapp.com/) template that generates a Spotify app template in Haml, Sass, and Coffeescript.
+Spotify Middleman Bootstrap is a [Middleman](http://middlemanapp.com/) template for creating Spotify Apps in Haml, Sass, and Coffeescript!
 
-Install
--------
-First, make sure that you install Middleman
+Installation
+------------
 
-	gem install middleman
+Requirements:
 
-Next, create the required directory for Middleman templates
+*	Middleman `gem install middleman`
+*	Bundler `gem install bundler`
+*	Ruby 1.9.x recommended
+*	[Spotify Dev Account](http://developer.spotify.com/en/spotify-apps-api/developer-signup/)
 
-	mkdir ~/.middleman
-	cd ~/.middleman
-	git clone git@github.com:danwaz/spotify-middleman-bootstrap.git
+Clone project into `~/.middleman` folder.
 
-Lastly, create a new Middleman project
+Create a new Middleman project.
 
 	middleman init MySpotifyApp --template=spotify-middleman-bootstrap
+
+Run bundler in `/MyStotifyApp` folder.
+
+	bundle install
+
+Configure
+---------
+
+Open `spotify_build.sh` and modify the `appDirectory` variable.  This is the folder your app is saved to and the name used to access your app in the Spotify client.
+
+Open `source/manifest.json` to modify your app information.
 
 Automatic build
 ---------------
 
-By running `guard` in your `/MySpotifyApp` folder you will enable your project to be built and rebuilt after every change to your project.
+Run `guard` in `/MyStotifyApp` folder. 
 
-The build action will:
+After each save, your project will be built and copied to the `~/Spotify` directory.
 
-*	generate all HTML, CSS, and JS
-*	move generated files to `~/Spotify/MySpotifyApp` 
+Resources
+---------
 
+[Spotify Developer](http://developer.spotify.com/en/spotify-apps-api/resources/)
+[Middleman](http://middlemanapp.com/)
