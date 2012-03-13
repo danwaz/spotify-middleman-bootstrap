@@ -1,4 +1,4 @@
-#= require "js/libs/jquery-1.7.1"
+#= require libs/jquery-1.7.1
 
 init = ->
   updatePageWithTrackDetails()
